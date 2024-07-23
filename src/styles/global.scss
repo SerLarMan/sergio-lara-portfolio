@@ -1,0 +1,66 @@
+/**
+ * #274060
+ * #335C81
+ * #65AFFF
+ * #1B2845
+ * #5899E2
+ */
+
+$colors: (
+  "primary": #335c81,
+  "secondary": #fbfbf9,
+  "accentDark": #1b2845,
+  "accentLight": #5899e2,
+  "black": #1b1212,
+);
+
+$sizes: (
+  "big": 10px,
+  "medium": 10px,
+  "small": 10px,
+);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: map-get($colors, "black");
+  background-color: map-get($colors, "secondary");
+  font-family: "Rubik", sans-serif;
+  z-index: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sectionTitle {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2em;
+
+  .line {
+    width: 100px;
+    height: 2px;
+    margin-left: 1.5em;
+    background: map-get($colors, "black");
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.remark {
+  color: map-get($colors, "accentLight");
+  font-weight: bold;
+}

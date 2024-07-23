@@ -1,0 +1,27 @@
+@import "../../styles/global.scss";
+
+.listElements {
+  margin: 0 1em;
+  display: none;
+
+  &:first-child {
+    display: block;
+  }
+
+  a {
+    display: flex;
+    color: map-get($colors, "secondary");
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    i {
+      font-size: 1.2rem;
+    }
+
+    span {
+      margin-left: 0.5em;
+    }
+  }
+}
