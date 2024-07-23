@@ -26,7 +26,7 @@ export function setUpProjects() {
       "Games Hub",
       ["Vite", "SASS"],
       "Project that brings together three classic games to play alone or with someone.",
-      "https://www.unimatprevencion.es/"
+      "https://github.com/SerLarMan/gameshub"
     )
   );
   projects.append(
@@ -35,7 +35,7 @@ export function setUpProjects() {
       "Pinterest Clone",
       ["Vite", "SASS", "Unsplash"],
       "Project that simulates the pinterest application, being able to search for images and collections and download any image.",
-      "https://www.unimatprevencion.es/"
+      "https://github.com/SerLarMan/pinterest-clone"
     )
   );
   projects.append(
