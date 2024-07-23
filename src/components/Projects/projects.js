@@ -22,7 +22,7 @@ export function setUpProjects() {
 
   projects.append(
     setUpProjectCard(
-      "https://media.licdn.com/dms/image/D4E0BAQEv9v_gcp3m3g/company-logo_200_200/0/1683718642523/unimat_prevencion_sl_logo?e=2147483647&v=beta&t=fkLtZg_lGpyv45VekL7BPWeDlI2rFaFt2meSpDaSqeU",
+      "https://developer.android.com/static/images/cluster-illustrations/controllers.svg",
       "Games Hub",
       ["Vite", "SASS"],
       "Project that brings together three classic games to play alone or with someone.",
@@ -31,7 +31,7 @@ export function setUpProjects() {
   );
   projects.append(
     setUpProjectCard(
-      "https://media.licdn.com/dms/image/D4E0BAQEv9v_gcp3m3g/company-logo_200_200/0/1683718642523/unimat_prevencion_sl_logo?e=2147483647&v=beta&t=fkLtZg_lGpyv45VekL7BPWeDlI2rFaFt2meSpDaSqeU",
+      "https://static-00.iconduck.com/assets.00/pinterest-icon-512x512-3vn0ggs9.png",
       "Pinterest Clone",
       ["Vite", "SASS", "Unsplash"],
       "Project that simulates the pinterest application, being able to search for images and collections and download any image.",
