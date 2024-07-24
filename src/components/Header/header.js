@@ -58,8 +58,7 @@ export function setUpHeader(component) {
   imageDiv.classList.add("imageDiv");
 
   const userImage = document.createElement("img");
-  userImage.src =
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpe0JsQG8BNysOZpXVS8KgifVP7CuN4aWu8w&s";
+  userImage.src = "../../resources/user_img.png"
   imageDiv.append(userImage);
 
   component.append(headerLink);
