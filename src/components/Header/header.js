@@ -58,7 +58,8 @@ export function setUpHeader(component) {
   imageDiv.classList.add("imageDiv");
 
   const userImage = document.createElement("img");
-  userImage.src = "../../resources/user_img.png"
+  userImage.src =
+    "https://media.licdn.com/dms/image/D4D03AQFTVBiMXD7a9w/profile-displayphoto-shrink_800_800/0/1690182804225?e=1727308800&v=beta&t=jrXszoiO562lxnD8_pFjNwHNDDD7ZtTnBlNNQX2j1wg";
   imageDiv.append(userImage);
 
   component.append(headerLink);
